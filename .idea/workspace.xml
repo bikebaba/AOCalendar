@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ffbcc36-03d9-49f3-bd3d-ac56c4e88148" name="Default" comment="" />
+    <list default="true" id="0ffbcc36-03d9-49f3-bd3d-ac56c4e88148" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authHelper.js" afterPath="$PROJECT_DIR$/authHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+    </list>
     <ignored path="calendarExpress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="663">
               <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
               <folding>
                 <element signature="n#!!block;n#hello#0" expanded="false" />
@@ -32,6 +37,7 @@
                 <element signature="n#!!block;n#mail#0" expanded="false" />
                 <element signature="n#!!block;n#getCalendar#0" expanded="false" />
                 <element signature="n#!!block;n#createEvent#0" expanded="false" />
+                <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
                 <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
                 <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
               </folding>
@@ -42,18 +48,30 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+            <state relative-caret-position="561">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authHelper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#53#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authHelper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1032">
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
+            <state relative-caret-position="561">
+              <caret line="64" column="84" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="84" />
               <folding>
                 <element signature="e#72#566#0" expanded="false" />
                 <element signature="n#!!block;n#getTokenFromCode#0" expanded="false" />
@@ -65,6 +83,16 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,6 +103,7 @@
         <option value="$PROJECT_DIR$/node_modules/simple-oauth2/lib/core.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/test1.js" />
         <option value="$PROJECT_DIR$/authHelper.js" />
       </list>
     </option>
@@ -88,10 +117,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,6 +166,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,33 +260,36 @@
       <workItem from="1472481937467" duration="48624000" />
       <workItem from="1473343694830" duration="5614000" />
       <workItem from="1473774163586" duration="5720000" />
+      <workItem from="1474558259670" duration="599000" />
+      <workItem from="1474642631882" duration="10173000" />
+      <workItem from="1475507592608" duration="9829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98711000" />
+    <option name="totallyTimeSpent" value="119312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13445379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -282,6 +312,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#hello#0" expanded="false" />
+            <element signature="n#!!block;n#getEmail#0" expanded="false" />
+            <element signature="n#!!block;n#authorize#0" expanded="false" />
+            <element signature="n#!!block;n#mail#0" expanded="false" />
+            <element signature="n#!!block;n#getCalendar#0" expanded="false" />
+            <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
+            <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
+            <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="e#72#566#0" expanded="false" />
+            <element signature="n#!!block;n#getTokenFromCode#0" expanded="false" />
+            <element signature="n#!!block;n#getEmailFromIdToken#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#hello#0" expanded="false" />
+            <element signature="n#!!block;n#getEmail#0" expanded="false" />
+            <element signature="n#!!block;n#authorize#0" expanded="false" />
+            <element signature="n#!!block;n#mail#0" expanded="false" />
+            <element signature="n#!!block;n#getCalendar#0" expanded="false" />
+            <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
+            <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
+            <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="e#72#566#0" expanded="false" />
+            <element signature="n#!!block;n#getTokenFromCode#0" expanded="false" />
+            <element signature="n#!!block;n#getEmailFromIdToken#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
           <folding>
@@ -291,6 +397,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -328,6 +435,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -365,6 +473,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -409,6 +518,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -426,6 +536,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -463,6 +574,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -500,6 +612,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -537,6 +650,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -574,6 +688,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -611,6 +726,7 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
           </folding>
@@ -641,13 +757,6 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/app.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -696,29 +805,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authHelper.js">
+    <entry file="file://$PROJECT_DIR$/test1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1032">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="e#72#566#0" expanded="false" />
-            <element signature="n#!!block;n#getTokenFromCode#0" expanded="false" />
-            <element signature="n#!!block;n#getEmailFromIdToken#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/test1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#53#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="663">
           <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
           <folding>
             <element signature="n#!!block;n#hello#0" expanded="false" />
@@ -727,8 +833,37 @@
             <element signature="n#!!block;n#mail#0" expanded="false" />
             <element signature="n#!!block;n#getCalendar#0" expanded="false" />
             <element signature="n#!!block;n#createEvent#0" expanded="false" />
+            <element signature="n#!!block;n#getNextGenCalendarData#0" expanded="false" />
             <element signature="n#!!block;n#getValueFromCookie#0" expanded="false" />
             <element signature="n#!!block;n#tokenReceived#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="64" column="84" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="84" />
+          <folding>
+            <element signature="e#72#566#0" expanded="false" />
+            <element signature="n#!!block;n#getTokenFromCode#0" expanded="false" />
+            <element signature="n#!!block;n#getEmailFromIdToken#0" expanded="false" />
           </folding>
         </state>
       </provider>

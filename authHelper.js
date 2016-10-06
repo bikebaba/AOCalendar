@@ -28,7 +28,7 @@ var credentials = {
 }
 var oauth2 = require("simple-oauth2")(credentials);
 
-var redirectUri = "http://localhost:11000/login";
+var redirectUri = "http://localhost:12000/login";
 
 // The scopes the app requires
 var scopes = [ "openid",
@@ -54,6 +54,8 @@ function createEventwithoutToken(req, res){
 
     // First get New Token
     var request = require("request");
+    console.log("req");
+    console.log(req.body.eventType);
     console.log("IN getnewtoken");
     //console.log(req.query.refresh_token);
     req.query.refresh_token = "AQABAAAAAADRNYRQ3dhRSrm-4K-adpCJSBTzkr1lIJUiRN-48OYJYymH5rvbSb-dgcjhn9hAAx95e8zhiVI1JPPZYfP8jgeB3z6dMXs1Pk5QQs8jht8vReTU1VTYzgyLhscLNZYJbbQdPDuzGbB28GkbwQ0gs0KFRYXirWCmuKke-IhAxSiEnAAI_CCpWPbQlVyva_Gfe1dsbqDNwASv5F3nvI3IXgdx7nrgWdTlifOW9QS76zjNVueLzJ1J5B-n2Ve1rcvDw036SUNwVgztXjTv8Q2x8mRLgtmcRnd5rKt3LFJ-DekRHz3jF1TqIfF0nR7cOiFImsCOwYrU4uiZLjcbAjKhcOwl018VArISfAPcxRvcW1p03sUcScWxG7MchsOYPmNjUVuk793uLNO7MdOg4LUeNqtpWK6DPoAnDCA-w79vWK9C3fIZz82_50DZJ8LlGtnxXoz4n_1bjOph096LtXFl3gx70d9To4IRs2WfPcmoGf_qlOPDANU_0RqOIxPkl4ofNnu6DGFP6yiuzqt_mZTDtdJfycFxyuGBM4UtXKEMIybeJp08RVoSWDOGrPIwUa_6O3WArVZdhP1X6c8UixHInaOIsutdE8LL801ThSO1K9vXn7dGm0mMXeB2BarVgapM5qja5EIlR6i_TpmwFYXyUG3fRafZmeAlf9XUD-e_1EKbfXP-cCkOVYCGpb7nUdZRq2rSU8Rwgoivw3TI8Dw5U3EZIAA";
@@ -97,9 +99,12 @@ function createEventwithoutToken(req, res){
             }
         };
 
+        if (req.body.eventType == 'Personal') {
+            options.path = "/v1.0/me/calendars/AQMkAGIzYTViZjgzLWYzN2QtNDUwMi1hMTM2LTNhNjk0MzJlNGQ3MwBGAAADolT90U35WEqIgZEtrX96eQcAbDi5PtVI3UuU5SGDPugV1QAAAgEGAAAAbDi5PtVI3UuU5SGDPugV1QAAAaJmFgAAAA==/events/"
+        }
 
-        console.log("options");
-        console.log(options);
+        //console.log("options");
+        //console.log(options);
         var request1 = http.request(options, function (response1) {
             var chunks = [];
 
@@ -113,7 +118,7 @@ function createEventwithoutToken(req, res){
                 var body1 = Buffer.concat(chunks);
                 console.log("ZZ");
                 //console.log(chunks);
-                console.log(body1.toString());
+                //console.log(body1.toString());
                 res.writeHead(200, {"Content-Type": "Application/json"});
                 res.write(body1.toString());
                 res.end();
