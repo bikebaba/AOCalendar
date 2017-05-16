@@ -55,10 +55,10 @@ app.post('/helloagain', function(req, res) {
 });
 
 
-app.post('/hello', function(req, res) {
+app.get('/hello', function(req, res) {
     console.log(req.body);
     console.log("UUUUUUUUUUUUUUUUUUUUUUUUUUUU");
-    res.send(req.body);
+    res.send("Hello");
 });
 app.get('/getEmail', function(req, res) {
     console.log("getEmail");
